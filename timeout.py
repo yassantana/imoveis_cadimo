@@ -8,15 +8,15 @@ from datetime import datetime
 
 LOGIN_URL = "https://api.devolusvistoria.com.br/auth/login/"
 IMOVEIS_URL = "https://api.devolusvistoria.com.br/imoveis/?ativo=true&pagina={}"
-EMAIL = "yasmin@headers.com.br"
-SENHA = "1234@Mudar"
+EMAIL = ""
+SENHA = ""
 ARQUIVO_CSV = "imoveis_completos.csv"
 PAUSA_REQUISICOES = 1  
 
-SERVER = "10.253.110.120"
-DATABASE = "DWHeaders"
-USERNAME = "usr_api_torres"
-PASSWORD = "ZadmXkJ4DSsUKE"
+SERVER = ""
+DATABASE = ""
+USERNAME = ""
+PASSWORD = ""
 TABELA = "TB_API_TORRES_MELO_DEVOLUS"
 BATCH_SIZE = 500
 
