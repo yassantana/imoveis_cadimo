@@ -9,8 +9,8 @@ from datetime import datetime, timedelta
 from requests.adapters import HTTPAdapter
 from urllib3.poolmanager import PoolManager
 
-TOKEN_FIXO = "bxoKAkzy6dIKrDJi"
-CPF_CNPJ_EMPRESA = "10490341000146"
+TOKEN_FIXO = ""
+CPF_CNPJ_EMPRESA = ""
 
 PASTA = r"C:\Users\yasmin\Desktop\torres_codigos"
 PASTA_COPIA = r"C:\Users\yasmin\Desktop\cadimo_csv"
