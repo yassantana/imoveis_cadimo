@@ -5,8 +5,8 @@ import time
 csv_faltantes = r"C:\Users\yasmin\Desktop\torres_codigos\imoveis_faltantes.csv"
 
 CHECK_URL = "https://api.devolusvistoria.com.br/imoveis/qtd/?codigoExterno={}"
-EMAIL = "yasmin@headers.com.br"
-SENHA = "1234@Mudar"
+EMAIL = ""
+SENHA = ""
 
 def log(msg):
     print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] {msg}")
