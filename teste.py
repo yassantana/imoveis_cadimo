@@ -28,8 +28,8 @@ print(f"📂 CSV gerado com {len(imoveis_faltantes)} imóveis faltantes: {saida_
 
 sucesso, falha = [], []
 
-API_URL = "https://api.devolusvistoria.com.br/api/imoveis"
-TOKEN = "3f57dca4-c52d-44c3-af71-0b932be8a4d3"
+API_URL = ""
+TOKEN = ""
 headers = {
     "Authorization": f"Bearer {TOKEN}",
     "Content-Type": "application/json"
