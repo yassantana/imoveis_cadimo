@@ -9,8 +9,8 @@ from datetime import datetime, timedelta
 from requests.adapters import HTTPAdapter
 from urllib3.poolmanager import PoolManager
 
-TOKEN_FIXO = "bxoKAkzy6dIKrDJi"
-CPF_CNPJ_EMPRESA = "10490341000146"
+TOKEN_FIXO = ""
+CPF_CNPJ_EMPRESA = ""
 
 PASTA = r"C:\Users\yasmin\Desktop\cadimo_csv"
 PASTA_COPIA = r"C:\Users\yasmin\Desktop\torres_codigos"
@@ -19,11 +19,11 @@ LIMIT = 50
 URL_TOKEN = "https://cadimo.imobsoft.com.br:8053/ValidaParceiro"
 URL_IMOVEIS = "https://cadimo.imobsoft.com.br:8053/CarregaImoveis"
 
-SERVER = "10.253.110.120"
+SERVER = ""
 DATABASE = "DWHeaders"
-USERNAME = "usr_api_torres"
-PASSWORD = "ZadmXkJ4DSsUKE"
-TABELA = "TB_API_TORRES_MELO_CADIMO"
+USERNAME = ""
+PASSWORD = ""
+TABELA = ""
 BATCH_SIZE = 500  
 
 os.makedirs(PASTA, exist_ok=True)
